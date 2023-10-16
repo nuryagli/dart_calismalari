@@ -22,4 +22,20 @@ for(var i=1;i<4;i++){
     print("Döngü 4 :$sayac");
     sayac++;//sayac = sayac + 1;
   }
+
+  //1,2,3,4,5
+  for(var i=1;i<6;i++){
+    if(i == 3){
+      continue;
+    }
+    print("Döngü 5 :$i");
+  }
+
+  for(var i=1;i<6;i++){
+    if(i == 3){
+      break;
+    }
+    print("Döngü 6 :$i");
+  }
+
 }
